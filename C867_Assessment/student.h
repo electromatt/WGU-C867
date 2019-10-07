@@ -24,6 +24,8 @@ public:
 	string getEmailAddress();
 	int getAge();
 	int* getCourseCompletionDays();
+	string getStringCourseCompletionDays();
+
 
 	virtual Degree getDegreeProgram() = 0;
 	virtual void print() = 0;
